@@ -1,0 +1,11 @@
+The problem in this lab is that we're given a spotify chart that we're supposed to process. We figure out what artists are on it and how many times they appear.
+
+Problem 1- Duplicate names. I made a method that took in the array with the duplicate names and used a nested for loop to compare the names on the list.
+If the names only shows up once I put that in a temp[] and if it shows more than once it just ignores the other instances. At the end of the nested for loop
+all the names should show up in the temp[] once. Which the method then returns that array and I assigned another array, "sortedArtists" in main to the method i used to find the duplicate names "findDupe".
+
+Problem 2- Finding how many times the artists showed up in the array. First i initialized an int variable called count to 1. This is because the artists would have to show up atleast once
+for them to even make the spotify charts. Then i once again used a nested for loop to compare each of the names to one another. If there are duplicates count++. All the while the value of count
+is being stored into the array x. Which would be parralel to the none duplicate array sortedArtists
+
+Problem 3- Writing the code into txt file. I used PrintWriter and did writer.println to print all the elements of the array into the txt file.
